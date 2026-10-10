@@ -1,40 +1,45 @@
-# learning AI Security 
+# Multiplication Game in Python ✖️
 
-My notes while learning AI security from scratch.
-I'm a beginner who also learns Python and C++, and I
-write here what I try, what fails, and what I learn.
+A simple console multiplication quiz game written in Python while learning the language.
 
-## What's inside
+## How It Works
 
-### Agent Breaker (by Lakera)
-Agent Breaker is a practice game where you attack AI
-agents that use tools. In these levels, I attacked a
-chat app that connects to a weather tool (MCP).
+- The game asks you multiplication table questions in random order.
+- You type your answer.
+- The game tells you if your answer is correct or wrong.
 
-| Level | Difficulty | Goal | Result |
-|-------|-----------|------|--------|
-| [Level 1](agent-breaker/level-1.md) | Novice | Leak the user's email | 100/100 |
-| [Level 2](agent-breaker/level-2.md) | Adept | Leak the full chat history | 100/100 |
-| [Level 3](agent-breaker/level-3.md) | Master | Leak the full chat history (hardened app) | 98/100 |
+## Requirements
 
-Each file has the objective, my approach, what I
-learned, and ideas for defense.
+- Python 3.8 or higher
 
-## Main lessons so far
-- **Tool poisoning:** text inside a tool description can
-  work like a command for the model.
-- **Read the objective again at every level.** It can
-  change.
-- **Probe first, then expand:** small tests, one change
-  at a time.
-- **Defense needs layers outside the model:** least
-  privilege, validating tool calls in code, and treating
-  third-party tool descriptions as untrusted.
+No external libraries needed.
 
-## Note
-All attacks here were done inside Lakera's Agent Breaker,
-a legal practice environment made for this. I don't
-publish full attack prompts, I write about the ideas and
-what I learned.
+## How to Run
 
-More notes will be added as I learn.
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/alimohamed2020303020-spec/multi_game_in_python.git
+   cd multi_game_in_python
+   ```
+
+2. Run the game:
+
+   ```bash
+   python "multi game.py"
+   ```
+
+## What I Practiced
+
+- Variables, operators, and user input
+- Conditions and loops
+- Functions
+- The `random` module
+
+## Author
+
+Made by [@alimohamed2020303020-spec](https://github.com/alimohamed2020303020-spec) as part of my Python learning journey.
+
+## License
+
+This project is open for learning and personal use.
